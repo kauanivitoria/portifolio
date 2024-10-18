@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --african-violet: #9c89b8ff;
+    --lavender-pink: #f0a6caff;
+    --pink-lavender: #efc3e6ff;
+    --lavender-blush: #f0e6efff;
+    --periwinkle: #b8beddff;    
+    --fonte-principal: "Dancing Script", cursive;
+    --fonte-secundaria: "Playfair Display", serif;
+    --azul: var(--periwinkle);
+    --cor-fundo: var(--african-violet);
+}
+
+body {
+    font-family: var(--fonte-secundaria);
+    background-color: var(--cor-fundo);
+}
+
+h1, h3 {
+    font-family: var(--fonte-principal);
+}
