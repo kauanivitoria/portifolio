@@ -1,23 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 :root {
-    --african-violet: #9c89b8ff;
+    --african-violet: rgb(117, 79, 175);
     --lavender-pink: #f0a6caff;
-    --pink-lavender: #efc3e6ff;
-    --lavender-blush: #f0e6efff;
+    --pink-lavender:rgb(139, 76, 175);
+    --lavender-blush: rgb(238, 207, 235);
     --periwinkle: #b8beddff;    
-    --fonte-principal: "Dancing Script", cursive;
-    --fonte-secundaria: "Playfair Display", serif;
-    --azul: var(--periwinkle);
-    --cor-fundo: var(--african-violet);
+    --fonte-principal: "Anton", sans-serif;
+    --fonte-secundaria: "Zilla Slab", serif;
 }
 
 body {
     font-family: var(--fonte-secundaria);
-    background-color: var(--cor-fundo);
+    background-color: var(--african-violet);
+    color: var(--lavender-blush);
+}
+
+.img.thumbnail{
+    border: 2px solid var(--lavender-blush)
 }
 
 h1, h3 {
     font-family: var(--fonte-principal);
+}
+
+.card{
+    background-color: var(--pink-lavender);
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    border: 5px solid var(--lavender-blush);
+}
+
+.footer-link{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: var(--lavender-blush);
 }
 
